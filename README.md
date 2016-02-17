@@ -20,7 +20,7 @@ Creates a deploy-able war file:
 
     lein ring uberwar
 
-## Plugins Utilized
+## Plugins Used
 
 * [lein-ring](https://github.com/weavejester/lein-ring) (to create deploy-able package and run local server instance).
 
