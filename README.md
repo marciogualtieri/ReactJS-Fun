@@ -1,6 +1,6 @@
 # my-website-clojure
 
-That's my personal website developed in Clojure.
+My personal website developed in Clojure.
 
 ## Usage
 
