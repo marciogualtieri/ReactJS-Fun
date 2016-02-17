@@ -32,7 +32,7 @@ Creates a deploy-able war file:
 
 * [rum](https://github.com/tonsky/rum) (a ReactJS Wrapper for Clojure).
 
-* [hiccup](https://github.com/weavejester/hiccup) (for create static HTML pages; for my own reference, the API documentation is located [here](https://crossclj.info/ns/hiccup/1.0.5/hiccup.page.html)).
+* [hiccup](https://github.com/weavejester/hiccup) (to create static HTML pages; for my own reference, the API documentation is located [here](https://crossclj.info/ns/hiccup/1.0.5/hiccup.page.html)).
 
 * [composure](https://github.com/weavejester/compojure) (a routing library for ring).
 
