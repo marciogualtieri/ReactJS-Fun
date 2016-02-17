@@ -22,7 +22,7 @@ Creates a deploy-able war file:
 
 ## Plugins Used
 
-* [lein-ring](https://github.com/weavejester/lein-ring) (to create deploy-able package and run local server instance).
+* [lein-ring](https://github.com/weavejester/lein-ring) (to create a deploy-able package and run a local server).
 
 * [lein-cljsbuild](https://github.com/emezeske/lein-cljsbuild) (for cross-compiling ClojureScript to JavaScript).
 
