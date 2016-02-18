@@ -1,7 +1,7 @@
 (ns my_website.views
     (:require
       [hiccup
-       [page :refer [html5 include-js]]]
+       [page :refer [html5 include-js include-css]]]
       ))
 
 (defn index-page []
@@ -9,5 +9,6 @@
         [:head
          [:title "My Website: Clojure"]]
         [:body
-         [:div {:id "contact-form"}]
-         (include-js "/js/components.js")]))
+         [:div {:id "contact-form" :class "my_website"}]
+         (include-js "/js/components.js")
+         (include-css "/css/style.css")]))

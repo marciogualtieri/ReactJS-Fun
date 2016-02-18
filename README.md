@@ -4,13 +4,9 @@ My personal website developed in Clojure.
 
 ## Usage
 
-Build the application:
+Build and test the application:
 
-    lein cljsbuild once
-    
-Test the application:
-    
-    lein test
+    lein do clean, cljsbuild once, test
 
 Starts a local web server and run the app using port 3000:
 

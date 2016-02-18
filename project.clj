@@ -25,4 +25,6 @@
                                        :optimizations :whitespace
                                        :pretty-print  true}}]}
 
-  :ring {:handler my_website.routes/app-routes})
+  :ring {:handler       my_website.routes/app-routes
+         :auto-reload?  true
+         :auto-refresh? true})
