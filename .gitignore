@@ -5,4 +5,4 @@
 /.nrepl-port
 .hgignore
 .hg/
-/resources/public
+/resources/public/js

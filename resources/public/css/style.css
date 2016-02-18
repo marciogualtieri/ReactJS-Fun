@@ -1,0 +1,10 @@
+* { box-sizing: border-box; vertical-align: top; text-rendering: optimizelegibility; }
+tr, td, table, tbody { padding: 0; margin: 0; border-collapse: collapse; }
+
+body, input, button { font: 16px/20px 'Input Sans Narrow';}
+
+.my_website { border: 2px solid #ccc; border-radius: 2px; padding: 20px; width: 320px; display: inline-block; height: 190px; margin: 10px 5px; line-height: 28px; }
+dt { width: 100px; float: left; }
+dt, dd { vertical-align: bottom; line-height: 36px }
+input { padding: 6px 6px 2px; border: 1px solid #CCC; }
+input:focus { outline: 2px solid #a3ccf7; }
