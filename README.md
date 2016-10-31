@@ -1,6 +1,6 @@
 # ReactJs Fun
 
-Learning ReactJS with Clojure.
+Learning Rum, a ReactJS Wrapper for Clojure.
 
 ## How to Build and Run the Application
 
