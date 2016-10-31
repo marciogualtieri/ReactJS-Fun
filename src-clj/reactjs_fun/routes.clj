@@ -1,6 +1,6 @@
-(ns my_website.routes
+(ns reactjs_fun.routes
     (:use compojure.core
-      my_website.views
+      reactjs_fun.views
       [hiccup.middleware :only (wrap-base-url)])
     (:require [compojure.route :as route]
       [compojure.handler :as handler]

@@ -1,5 +1,5 @@
-(defproject my-website "0.1.0-SNAPSHOT"
-  :description "My Website"
+(defproject reactjs-fun "0.1.0-SNAPSHOT"
+  :description "ReactJS Fun"
   :url "http://github.com/marciogualtieri"
   :license {:name "Eclipse Public License"
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
@@ -15,7 +15,7 @@
                  [compojure "1.1.6"]
                  [hiccup "1.0.4"]
                  [rum "0.6.0"]
-                 [clj-webdriver "0.7.1"]
+                 [clj-webdriver "0.7.2"]
                  [org.seleniumhq.selenium/selenium-server "2.47.0"]
                  [ring/ring-jetty-adapter "1.4.0"]]
 
@@ -25,6 +25,6 @@
                                        :optimizations :whitespace
                                        :pretty-print  true}}]}
 
-  :ring {:handler       my_website.routes/app-routes
+  :ring {:handler       reactjs_fun.routes/app-routes
          :auto-reload?  true
          :auto-refresh? true})

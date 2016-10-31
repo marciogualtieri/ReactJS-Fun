@@ -1,18 +1,25 @@
-# my-website-clojure
+# ReactJs Fun
 
-My personal website developed in Clojure.
+Learning ReactJS with Clojure.
 
-## Usage
+## How to Build and Run the Application
 
 Build and test the application:
 
     lein do clean, cljsbuild once, test
 
-Starts a local web server and run the app using port 3000:
+This project uses 'clj-webdriver'. If you have any experience with Selenium WebDriver you might now that it will only
+work with specific versions of Firefox.
+
+The current version of 'clj-webdriver' works with 
+[Firefox 39](https://ftp.mozilla.org/pub/firefox/releases/39.0.3/linux-x86_64/en-US/firefox-39.0.3.tar.bz2). 
+You may need to downgrade your browser to run tests.
+
+Start a local web server and run the app using port 3000:
 
     lein ring server-headless 3000
 
-Creates a deploy-able war file:
+Create a deploy-able war file:
 
     lein ring uberwar
 
@@ -34,9 +41,3 @@ Creates a deploy-able war file:
 
 * [clj-webdriver](https://github.com/semperos/clj-webdriver) (for unit tests; for my own reference, the wiki page is located [here](https://github.com/semperos/clj-webdriver/wiki) and the Taxi API documentation is located [here](https://github.com/semperos/clj-webdriver/wiki/Taxi-API-Documentation)).
 
-## License
-
-Copyright © 2016 BiiWii Enterprises
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.

@@ -1,4 +1,4 @@
-(ns my_website.features.config)
+(ns reactjs_fun.features.config)
 
 (def test-port 3000)
 (def test-host "localhost")

@@ -1,4 +1,4 @@
-(ns my_website.components
+(ns reactjs_fun.components
   (:require [rum.core :as rum]))
 
 (js/console.time "Init")

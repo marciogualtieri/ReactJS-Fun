@@ -1,9 +1,9 @@
-(ns my_website.components_test
+(ns reactjs_fun.components_test
   (:require [clojure.test :refer :all]
             [ring.adapter.jetty :refer [run-jetty]]
             [clj-webdriver.taxi :refer :all]
-            [my_website.features.config :refer :all]
-            [my_website.routes :refer [app-routes]]))
+            [reactjs_fun.features.config :refer :all]
+            [reactjs_fun.routes :refer [app-routes]]))
 
 (defn start-server []
   (loop [server (run-jetty app-routes {:port test-port, :join? false})]
