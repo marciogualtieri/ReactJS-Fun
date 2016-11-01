@@ -8,8 +8,8 @@ Build and test the application:
 
     lein do clean, cljsbuild once, test
 
-This project uses 'clj-webdriver'. If you have any experience with Selenium WebDriver you might know that it will only
-work with specific versions of Firefox.
+> This project uses 'clj-webdriver'. If you have any experience with Selenium WebDriver you might know that it will only
+> work with specific versions of Firefox.
 
 The current version of 'clj-webdriver' works with 
 [Firefox 39](https://ftp.mozilla.org/pub/firefox/releases/39.0.3/linux-x86_64/en-US/firefox-39.0.3.tar.bz2). 
